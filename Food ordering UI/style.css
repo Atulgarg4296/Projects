@@ -1,0 +1,220 @@
+*{
+    margin: 0px;
+}
+#app-container{
+    /* height: 100vh; */
+    /* border: 2px solid red; */
+}
+
+/* 1.Header Component */
+
+#header-container{
+    /* border: 1px solid purple; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo{
+    height: 150px;
+    width: 190px;
+}
+
+
+ul{
+    display: flex;
+    list-style-type: none;
+    /* border: 2px solid black; */
+}
+li{
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0px 25px;
+}
+/* li:hover{
+    background-color: wheat;
+} */
+
+#login-btn{
+    margin-right: 20px;
+    height: 30px;
+    width: 90px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+#login-btn:hover{
+    background-color: whitesmoke;
+    border-color: azure;
+}
+
+
+/* 2.Search component */
+
+#search-container{
+    /* border: 2px solid yellowgreen; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#search-bar{
+margin-top: 10px;
+height: 32px;
+width: 600px;
+border: 1px solid black;
+border-radius: 5px;
+}
+
+
+
+#search-btn{
+    font-size: 15px;
+
+    margin-top: 10px;
+    height: 27px;
+    width: 150px;
+    border: none;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    background-color: whitesmoke;
+}
+#search-btn:hover{
+    background-color: wheat;
+    border: none;
+}
+
+
+/* Card-container */
+#card-container{
+    /* border: 2px solid rgb(106, 0, 255); */
+    /* height: 450px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+
+/* Card */
+#card{
+    height: 300px;
+    width: 200px;
+    background-color: white;
+    margin: 10px 30px;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+
+    
+}
+#card-details>h2{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+#card-details>p{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#card:hover{
+    background-color: whitesmoke;
+    transform: scale(0.9);
+    
+}
+
+#card-logo{
+    height: 120px;
+    width: 190px;
+    margin-left: 6px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+
+/* .restro-name{
+
+} */
+/* .restro-addres{
+    margin-top: 10px;
+} */
+#card-details{
+    margin-left: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.restro-cuisine{
+    margin-top: px;
+}
+.restro-cost{
+    margin-top: 25px;
+}
+.restro-cuisine{
+    margin-top: 5px;
+}
+.restro-rating{
+    margin-top: 5px;
+}
+.restro-delivery-time{
+    margin-top: 5px;
+}
+
+
+
+/* Footer-css */
+#footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+#addres-container{
+    margin-left: 19px;
+}
+
+
+
+#filter-btn>button{
+    /* margin-left: 148px; */
+    border: none;
+    border-radius: 4px;
+    height: 24px;
+
+}
+#filter-btn>button:hover{
+    background-color: white;
+    cursor: pointer;
+}
+
+#all-restro-btn{
+   margin-left: 148px;
+   margin-right: 10px;
+}
+
+
+
+
+.shimmer-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .shimmer {
+    border-radius: 10px;
+    width: 150px;
+    height: 220px;
+    margin: 20px 70px;
+    background-color: #f0f0f0;
+    animation: shimmer-animation 1.5s infinite linear;
+   
+  }
+ 
+  
+  
+  
