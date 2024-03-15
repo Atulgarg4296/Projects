@@ -14,8 +14,8 @@ const Card = (props)=>{
         <h3 className="restro-cost">{restaurant.costForTwo}</h3>
         <p className="restro-cuisine">{restaurant.cuisines.join(",")}</p>
         <p className="restro-rating">{"avg-rating : "+ restaurant.avgRating}</p>
-        <p className="restro-delivery-time">{restaurant.sla.deliveryTime+" mins"}</p>
-        
+        <p className="restro-delivery-time">{restaurant.sla.deliveryTime+" mins"}</p> 
+
         </div>
     </div>)
 }

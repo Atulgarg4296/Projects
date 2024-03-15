@@ -215,6 +215,26 @@ border-radius: 5px;
    
   }
  
-  
-  
-  
+.link{
+    
+    color: black;
+    text-decoration: none;
+    padding: 5px 5px;
+    
+}
+
+.link:hover{
+   /* border: 1px solid black;
+    border-radius: 3px;  */
+    background-color: whitesmoke; 
+ 
+}
+
+#about-us{
+    height: 68vh;
+    /* background-color: aliceblue; */
+}
+
+#cart-container{
+    height: 68vh;
+}

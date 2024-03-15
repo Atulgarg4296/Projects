@@ -6,11 +6,10 @@ import { useEffect, useState } from "react";
 import Filter from "./Filter";
 import Shimmer from "./Shimmer";
 
-
 const CardContainer = ()=>{
     const[resList,setResList] = useState([]);
     const[resData,setResData] = useState([]);
-    console.log(resData);
+    // console.log(resData);
 
    useEffect(()=>{
     getData();
@@ -29,8 +28,6 @@ const CardContainer = ()=>{
     if(resData.length==0){
         return <Shimmer/>
     }
-
-   
 
     return (<div id="card-box">
         <Search resData={resData} resList={resList} setResList={setResList} />

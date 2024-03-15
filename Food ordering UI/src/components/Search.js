@@ -10,7 +10,6 @@ const Search = (props)=>{
 
         <input id="search-bar" type="text" value={searchText} onChange={(e)=>{
             setSearchText(e.target.value)}}></input>
-
         </div>
         
         <div id="search-btn-container">
@@ -20,11 +19,7 @@ const Search = (props)=>{
                 return restaurant.info.name.toLowerCase().includes(searchText.toLowerCase());
             })
 
-          
-
             setResList(searched_data);
-
-           
 
         }}>Search</button>
         </div>

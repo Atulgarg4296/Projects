@@ -43,3 +43,42 @@ data.cards[1].card.card.gridElements.infoWithStyle.restaurants[0].info.name;
 
 
  img={card_img+restaurant.info.cloudinaryImageId} name={restaurant.info.name} locality={restaurant.info.locality} cuisines={restaurant.info.cuisines} cost={restaurant.info.costForTwo} avgRating={restaurant.info.avgRating} deliveryTime={restaurant.info.sla.deliveryTime}
+
+
+
+
+
+
+
+ //Routing:
+      1.npm i react-router-dom..its a javascipt library.
+      2.Now how to use it..
+            -import "createBrowserRouter" in main.js component..
+      3.Done with your configuration..createBrowserRouter([
+            {},
+            {},
+      ])
+      4.Now just use it.. root.render(<RouterProvider router={config}>);
+
+
+//Routing Error handling
+
+      1.errorElemnt:<Error/>
+      2.import useRouterError hook.
+      3.it returns an object.
+      4.Just use their info to make it good.
+
+
+//Child Routing:
+
+
+
+
+
+
+
+
+
+//SPA(Single Page Application).
+      1.instead of <a href> use <Link to={}>
+      2.Just import the Link.
